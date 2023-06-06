@@ -27,11 +27,11 @@ import { ReadOnlyTableComponent } from "@site/static/js/samples/desktop/readonly
 | id | string | "" | コンポーネントの id 名 ||
 | label | string | "" | コンポーネントの説明ラベル | 未指定、あるいは空文字の場合、label は表示されない |
 | visible | boolean | true | コンポーネントの表示/非表示設定 ||
-| columns | Array\<Columns\> | [] | テーブルヘッダーに表示するデータの配列 | Columns が配列以外の場合、エラーを出力する |
+| columns | Array<Columns\> | [] | テーブルヘッダーに表示するデータの配列 | Columns が配列以外の場合、エラーを出力する |
 | columns.header | object | null | テーブルヘッダーのオブジェクト ||
 | columns.header.text | string | null | テーブルヘッダーに表示する文字列 ||
 | columns.visible | boolean | null | 列ごとの表示/非表示設定 ||
-| data | Array\<Array\<string\>\> | [] | テーブルボディに表示するデータの二次元配列 | data, data 内の値が配列以外の場合、エラーを出力する |
+| data | Array<Array<string\>\> | [] | テーブルボディに表示するデータの二次元配列 | data, data 内の値が配列以外の場合、エラーを出力する |
 
 ### Constructor
 
