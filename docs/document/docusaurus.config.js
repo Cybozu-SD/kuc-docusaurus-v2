@@ -11,7 +11,7 @@ function getLatestVersionName() {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Be a smart Kintone developer with Kintone UI Component.',
+  title: 'kintone UI Component · Be a smart kintone developer.',
   tagline: 'It will support your UI customization project.',
   url: 'https://cybozu-sd.github.io/',
   baseUrl: '/kuc-docusaurus-v2/',
