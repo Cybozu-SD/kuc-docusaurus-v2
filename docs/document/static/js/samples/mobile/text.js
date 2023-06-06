@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 export const MobileTextComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.10.0"];
+    const Kuc = Kucs["1.11.0"];
 
     const mobileText = new Kuc.MobileText({ className: "cus-mobile-text"});
 

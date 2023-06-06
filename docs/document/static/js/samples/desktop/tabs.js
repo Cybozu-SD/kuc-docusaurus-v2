@@ -3,20 +3,20 @@ import React, { useEffect, useRef } from 'react';
 export const TabsComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.10.0"];
+    const Kuc = Kucs["1.11.0"];
 
     const textArea = new Kuc.TextArea({
         label: "TextArea",
         value: "This is sample."
       });
-    
+
       const timePicker = new Kuc.TimePicker({
         label: "Time",
         value: "11:30"
       });
-    
+
       const contentText = "This is a sample.";
-    
+
       const tabs = new Kuc.Tabs({
       borderVisible: true,
       className: 'kuc-tabs-class',

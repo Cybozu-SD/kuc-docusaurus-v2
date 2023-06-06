@@ -53,7 +53,6 @@ function HomepageHeader() {
 }
 
 function HomepagePolicy () {
-  const {siteConfig} = useDocusaurusContext();
   const currentLanguage = getCurrentLanguage();
   if(currentLanguage === "en") {
     return (
