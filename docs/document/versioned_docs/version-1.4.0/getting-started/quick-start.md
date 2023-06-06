@@ -214,7 +214,7 @@ Output Result：
    </tbody>
 </table>
 
-:::tip
-The components have been tested in the latest version of each supported browser.
+:::info
+The components have been tested in the latest version of each supported browser.<br/>
 You can preview the components in the Overview section in each component's reference page.
 :::
