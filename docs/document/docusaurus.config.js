@@ -114,7 +114,7 @@ const config = {
               },
               {
                 label: 'Components',
-                to: '/docs/components/desktop/button',
+                to: '/docs/components/desktop/attachment',
               },
             ],
           },
