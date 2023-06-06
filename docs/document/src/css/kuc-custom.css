@@ -1,3 +1,27 @@
+.support-policy {
+  background-color: #2b3137;
+  border-left: 8px solid #3498db;
+  border-radius: 3px;
+  padding: 15px 30px 15px 15px;
+  color: #fff;
+  font-size: 13px;
+  margin: 0px 150px 20px 150px;
+}
+
+.support-policy .container {
+  margin-left: 0px;
+}
+
+.support-policy .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.support-policy .github-infomation {
+  margin-bottom: 10px;
+}
+
 .usecase {
   margin: 0 auto
 }

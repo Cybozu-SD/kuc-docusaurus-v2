@@ -52,6 +52,49 @@ function HomepageHeader() {
   }
 }
 
+function HomepagePolicy () {
+  const {siteConfig} = useDocusaurusContext();
+  const currentLanguage = getCurrentLanguage();
+  if(currentLanguage === "en") {
+    return (
+      <div class="support-policy">
+        <div class="container">
+          <div class="title">Support Policy</div>
+          <div class="github-infomation">
+            You can ask questions and/or submit requests on
+            <a href="https://github.com/kintone-labs/kintone-ui-component/issues/new/choose" target="_blank" rel="noreferrer"> GitHub Issue</a>.
+          </div>
+          <div class="more-infomation">
+            You are allowed to change the source code, redistribute it, and use it in accordance with the license.<br/>
+            For more details of the license type please refer to the GitHub repository.
+          </div>
+        </div>
+      </div>
+    );
+  } else {
+    return (
+      <div class="support-policy">
+        <div class="container">
+          <div class="title">Support Policy</div>
+          <div class="github-infomation">
+            kintone UI Component の仕様については、テクニカルサポートへお問い合わせいただけます。<br/>
+            <a href="https://faq.cybozu.info/alphascope/cybozu/web/kintone/Detail.aspx?id=1763" target="_blank" rel="noreferrer"> サポートへのお問い合わせ方法</a>
+            をご確認の上、お問合せください。
+          </div>
+          <div class="github-infomation">
+            その他 <a href="https://github.com/kintone-labs/kintone-ui-component/issues/new/choose" target="_blank" rel="noreferrer"> GitHub Issue</a>.
+            にてご質問や機能リクエストを受け付けております。
+          </div>
+          <div class="more-infomation">
+            ソースコードの変更、再配布および商用利用等は、ライセンスに従ってご利用可能です。<br/>
+            ライセンスの種別は GitHub のリポジトリでご確認ください。
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -61,6 +104,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepagePolicy />
       </main>
     </Layout>
   );
