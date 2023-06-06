@@ -1,3 +1,21 @@
+.title-text {
+  color: #03a9f4;
+}
+
+.button.button-top {
+  color: #fff;
+  border-color: #fff;
+  border-width: 2px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: 500;
+  padding: 8px;
+}
+.button.button-top:hover {
+  background-color: #03a9f4;
+}
+
 .support-policy {
   background-color: #2b3137;
   border-left: 8px solid #3498db;

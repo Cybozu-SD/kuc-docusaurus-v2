@@ -21,11 +21,11 @@ function HomepageHeader() {
     return (
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">Be a smart Kintone developer with <span class="title-text">Kintone UI Component</span>.</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
-              className="button button--secondary button--lg"
+              className="button button--secondary button--md button-top"
               to="/docs/getting-started/quick-start">
               Getting Started
             </Link>
@@ -37,11 +37,11 @@ function HomepageHeader() {
     return (
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Be a smart kintone developer with kintone UI Component.</h1>
+          <h1 className="hero__title">Be a smart kintone developer with <span class="title-text">kintone UI Component</span>.</h1>
           <p className="hero__subtitle">{siteConfig.taglineJP}</p>
           <div className={styles.buttons}>
             <Link
-              className="button button--secondary button--lg"
+              className="button button--secondary button--md button-top"
               to="/docs/getting-started/quick-start">
               Getting Started
             </Link>
