@@ -1,5 +1,5 @@
 {
-  "version-1.2.0-docs": {
+  "docs": {
     "Getting Started": [
       "getting-started/quick-start"
     ],
@@ -48,7 +48,7 @@
       "guides/cleaning-check-list-customization"
     ]
   },
-  "version-1.2.0-release-notes": {
+  "release-notes": {
     "Releases": [
       "releases/release-notes",
       "releases/release-notes-v1.1.1",

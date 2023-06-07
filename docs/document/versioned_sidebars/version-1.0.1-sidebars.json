@@ -1,5 +1,5 @@
 {
-  "version-1.0.1-docs": {
+  "docs": {
     "Getting Started": [
       "getting-started/quick-start"
     ],
@@ -41,7 +41,7 @@
       "guides/search-box-customization"
     ]
   },
-  "version-1.0.1-release-notes": {
+  "release-notes": {
     "Releases": [
       "releases/release-notes",
       "releases/release-notes-v1.0.0"

@@ -1,5 +1,5 @@
 {
-  "version-1.1.0-docs": {
+  "docs": {
     "Getting Started": [
       "getting-started/quick-start"
     ],
@@ -44,7 +44,7 @@
       "guides/mobile-timecard-customization"
     ]
   },
-  "version-1.1.0-release-notes": {
+  "release-notes": {
     "Releases": [
       "releases/release-notes",
       "releases/release-notes-v1.0.5",
