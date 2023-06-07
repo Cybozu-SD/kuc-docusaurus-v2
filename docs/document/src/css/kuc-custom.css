@@ -57,6 +57,10 @@ details.toggle-panel summary{
   font-weight: 600;
 }
 
+.sample-container table thead, .sample-container table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
 .usecase {
   margin: 0 auto
 }
