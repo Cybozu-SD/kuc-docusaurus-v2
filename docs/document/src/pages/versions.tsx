@@ -31,9 +31,41 @@ function ReleaseNotesLabel() {
   );
 }
 
+function getCurrentLanguage() {
+  const { siteConfig } = useDocusaurusContext();
+  const baseUrl = siteConfig.baseUrl;
+  if (baseUrl.includes("/ja/")) return "ja";
+  return "en";
+}
+
+function V0Infomation() {
+  const currentLanguage = getCurrentLanguage();
+  if (currentLanguage === "en") {
+    return (
+      <div>※ Please find the version of v0 series
+        <a
+          href="https://kintone-labs.github.io/kintone-ui-component/latest/versions/"
+          target="_blank"
+          rel="noreferrer"
+        > here</a>.
+      </div>
+    );
+  } else {
+    return (
+      <div>※ v0 系のバージョンは
+        <a
+          href="https://kintone-labs.github.io/kintone-ui-component/latest/versions/"
+          target="_blank"
+          rel="noreferrer"
+        > こちら</a> をご確認ください。
+      </div>
+    );
+  }
+}
+
 export default function Version(): JSX.Element {
   const {
-    siteConfig: {organizationName, projectName},
+    siteConfig: { organizationName, projectName },
   } = useDocusaurusContext();
 
   const versions = useVersions(docsPluginId);
@@ -42,6 +74,7 @@ export default function Version(): JSX.Element {
     (version) => version !== latestVersion && version.name !== 'current',
   );
   const repoUrl = `https://github.com/${organizationName!}/${projectName!}`;
+  const currentLanguage = getCurrentLanguage();
 
   return (
     <Layout
@@ -55,7 +88,7 @@ export default function Version(): JSX.Element {
         </Heading>
 
         <div className="margin-bottom--lg">
-          <Heading as="h3" id="next" style={{display: 'flex'}}>
+          <Heading as="h3" id="next" style={{ display: 'flex' }}>
             <div id="versionsPage.current.title">
               Current version (Stable)
             </div>
@@ -86,7 +119,7 @@ export default function Version(): JSX.Element {
 
         {(pastVersions.length > 0) && (
           <div className="margin-bottom--lg">
-            <Heading as="h3" id="archive" style={{display: 'flex'}}>
+            <Heading as="h3" id="archive" style={{ display: 'flex' }}>
               <div id="versionsPage.archived.title">
                 Past versions (Not maintained anymore)
               </div>
@@ -118,6 +151,7 @@ export default function Version(): JSX.Element {
             </table>
           </div>
         )}
+        <V0Infomation/>
       </main>
     </Layout>
   );
