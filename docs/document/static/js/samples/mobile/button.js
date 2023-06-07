@@ -15,15 +15,9 @@ export const MobileButtonComponent = () =>  {
       type: "submit",
       className: "kuc_normal_button",
     });
-    const buttonAlert = new Kuc.MobileButton({
-      text: "Alert",
-      type: "alert",
-      className: "kuc_normal_button",
-    });
 
-    divEl.current.appendChild(buttonNormal)
-    divEl.current.appendChild(buttonSubmit)
-    divEl.current.appendChild(buttonAlert)
+    divEl.current.appendChild(buttonNormal);
+    divEl.current.appendChild(buttonSubmit);
   }, []);
 
   return (
