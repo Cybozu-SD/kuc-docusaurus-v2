@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/okaidia'); // okaidia oceanicNext
+const lightCodeTheme = require('prism-react-renderer/themes/okaidia');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const versions = require('./versions.json');
 
@@ -51,7 +51,6 @@ const config = {
             require.resolve('./src/css/kuc-custom.css')
           ],
         },
-        // lastVersion: 'current',
       }),
     ],
   ],
@@ -65,15 +64,10 @@ const config = {
           src: 'img/kuc_logo_white.png',
         },
         items: [
-          // {
-          //   type: 'docsVersionDropdown',
-          //   position: 'left',
-          // },
           {
             type: 'docsVersion',
             position: 'left',
             to: '/versions',
-            // label: `${getLatestVersionName()}`,
           },
           {
             type: 'doc',
