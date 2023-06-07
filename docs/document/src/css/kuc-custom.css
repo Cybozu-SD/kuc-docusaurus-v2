@@ -40,6 +40,23 @@
   margin-bottom: 10px;
 }
 
+details.toggle-panel {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+details.toggle-panel .collapsibleContent_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module {
+  border-top: none !important;
+  margin-top: 0px !important;
+}
+
+details.toggle-panel summary{
+  font-weight: 600;
+}
+
 .usecase {
   margin: 0 auto
 }

@@ -95,7 +95,7 @@ When you edit the input in the first cell, the value received by the table will 
 
 Display a read-only mode table.
 
-<details>
+<details className="toggle-panel">
   <summary>Show code</summary>
 
   ```js
@@ -144,7 +144,7 @@ space.appendChild(readOnlyTable);
 Display a table that can manipulate the components displayed in it.<br/>
 Use the `columns.render` function to specify the component to be displayed in the cell. Please check the `renderGender` and the `renderAddress` functions in the following code example:
 
-<details>
+<details className="toggle-panel">
   <summary>Show code</summary>
 
   ```js
@@ -235,7 +235,7 @@ space.appendChild(table);
 Put multiple components in one table cell using the `columns.render` function.<br/>
 You can display two dropdowns (city and country) in the same cell.
 
-<details>
+<details className="toggle-panel">
   <summary>Show code</summary>
 
   ```js
@@ -334,7 +334,7 @@ space.appendChild(table);
 Develop the dependent columns.<br/>
 The city dropdown will be updated when the country dropdown is changed.
 
-<details>
+<details className="toggle-panel">
   <summary>Show code</summary>
 
   ```js
@@ -428,7 +428,7 @@ space.appendChild(table);
 
 Show more detailed info on every row with nested tables.
 
-<details>
+<details className="toggle-panel">
   <summary>Show code</summary>
 
   ```js
