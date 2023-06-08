@@ -5,30 +5,24 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Link from '@docusaurus/Link';
+import React from "react";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Link from "@docusaurus/Link";
 import {
   useVersions,
   useLatestVersion,
-} from '@docusaurus/plugin-content-docs/lib/client';
-import Layout from '@theme/Layout';
-import Heading from '@theme/Heading';
+} from "@docusaurus/plugin-content-docs/lib/client";
+import Layout from "@theme/Layout";
+import Heading from "@theme/Heading";
 
 const docsPluginId = undefined; // Default docs plugin instance
 
 function DocumentationLabel() {
-  return (
-    <div id="versionsPage.versionEntry.link">Documentation</div>
-  );
+  return <div id="versionsPage.versionEntry.link">Documentation</div>;
 }
 
 function ReleaseNotesLabel() {
-  return (
-    <div id="versionsPage.versionEntry.releaseNotes">
-      Release Notes
-    </div>
-  );
+  return <div id="versionsPage.versionEntry.releaseNotes">Release Notes</div>;
 }
 
 function getCurrentLanguage() {
@@ -42,22 +36,24 @@ function V0Infomation() {
   const currentLanguage = getCurrentLanguage();
   if (currentLanguage === "en") {
     return (
-      <div>※ Please find the version of v0 series
+      <div>
+        ※ Please find the version of v0 series
         <a
           href="https://kintone-labs.github.io/kintone-ui-component/latest/versions/"
           target="_blank"
           rel="noreferrer"
-        > here</a>.
+        > here </a>.
       </div>
     );
   } else {
     return (
-      <div>※ v0 系のバージョンは
+      <div>
+        ※ v0 系のバージョンは
         <a
           href="https://kintone-labs.github.io/kintone-ui-component/latest/versions/"
           target="_blank"
           rel="noreferrer"
-        > こちら</a> をご確認ください。
+        >こちら</a>をご確認ください。
       </div>
     );
   }
@@ -71,7 +67,7 @@ export default function Version(): JSX.Element {
   const versions = useVersions(docsPluginId);
   const latestVersion = useLatestVersion(docsPluginId);
   const pastVersions = versions.filter(
-    (version) => version !== latestVersion && version.name !== 'current',
+    (version) => version !== latestVersion && version.name !== "current"
   );
   const repoUrl = `https://github.com/${organizationName!}/${projectName!}`;
   const currentLanguage = getCurrentLanguage();
@@ -79,19 +75,16 @@ export default function Version(): JSX.Element {
   return (
     <Layout
       title="Versions"
-      description="Docusaurus 2 Versions page listing all documented site versions">
+      description="Docusaurus 2 Versions page listing all documented site versions"
+    >
       <main className="container margin-vert--lg">
         <Heading as="h1">
-          <div id="versionsPage.title">
-            Kintone UI Component versions
-          </div>
+          <div id="versionsPage.title">Kintone UI Component versions</div>
         </Heading>
 
         <div className="margin-bottom--lg">
-          <Heading as="h3" id="next" style={{ display: 'flex' }}>
-            <div id="versionsPage.current.title">
-              Current version (Stable)
-            </div>
+          <Heading as="h3" id="next" style={{ display: "flex" }}>
+            <div id="versionsPage.current.title">Current version (Stable)</div>
           </Heading>
           <p>
             <span id="versionsPage.current.description">
@@ -103,7 +96,7 @@ export default function Version(): JSX.Element {
               <tr>
                 <th>{latestVersion.label}</th>
                 <td>
-                  <Link to={latestVersion.path + '/' + latestVersion.mainDocId}>
+                  <Link to={latestVersion.path + "/" + latestVersion.mainDocId}>
                     <DocumentationLabel />
                   </Link>
                 </td>
@@ -117,17 +110,16 @@ export default function Version(): JSX.Element {
           </table>
         </div>
 
-        {(pastVersions.length > 0) && (
+        {pastVersions.length > 0 && (
           <div className="margin-bottom--lg">
-            <Heading as="h3" id="archive" style={{ display: 'flex' }}>
+            <Heading as="h3" id="archive" style={{ display: "flex" }}>
               <div id="versionsPage.archived.title">
                 Past versions (Not maintained anymore)
               </div>
             </Heading>
             <p>
               <span id="versionsPage.archived.description">
-                Here you can find documentation for previous versions of
-                Docusaurus.
+                Here you can find documentation for previous versions.
               </span>
             </p>
             <table>
@@ -136,7 +128,7 @@ export default function Version(): JSX.Element {
                   <tr key={version.name}>
                     <th>{version.label}</th>
                     <td>
-                      <Link to={version.path + '/' + latestVersion.mainDocId}>
+                      <Link to={version.path + "/" + latestVersion.mainDocId}>
                         <DocumentationLabel />
                       </Link>
                     </td>
@@ -151,7 +143,7 @@ export default function Version(): JSX.Element {
             </table>
           </div>
         )}
-        <V0Infomation/>
+        <V0Infomation />
       </main>
     </Layout>
   );
