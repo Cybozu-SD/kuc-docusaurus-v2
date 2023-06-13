@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const MobileRadioButtonComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const mobileRadioButton = new Kuc.MobileRadioButton({
         className: "cus-mobile-radio-button",
         value: "Orange",

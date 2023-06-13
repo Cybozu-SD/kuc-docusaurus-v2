@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const DateTimePickerComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const dateTimePicker = new Kuc.DateTimePicker({
         value: "2021-11-11T11:30:00"
     });

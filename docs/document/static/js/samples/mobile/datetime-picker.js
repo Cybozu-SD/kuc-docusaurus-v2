@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const MobileDateTimePickerComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const mobileDateTimePicker = new Kuc.MobileDateTimePicker({
         value: "2021-11-11"
     });

@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const MobileDropdownComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const dropdown = new Kuc.MobileDropdown({
         value: "Orange",
         items: [

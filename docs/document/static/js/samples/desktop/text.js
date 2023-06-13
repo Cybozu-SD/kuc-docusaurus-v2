@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const TextComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const text = new Kuc.Text({});
 
     divEl.current.appendChild(text)

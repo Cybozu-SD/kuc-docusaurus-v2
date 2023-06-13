@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const TabsComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const textArea = new Kuc.TextArea({
         label: "TextArea",
         value: "This is sample."

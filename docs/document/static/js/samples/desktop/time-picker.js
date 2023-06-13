@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const TimePickerComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const timePicker = new Kuc.TimePicker({
         value: "11:30"
     });

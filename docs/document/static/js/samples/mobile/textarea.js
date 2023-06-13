@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const MobileTextAreaComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const mobileTextArea = new Kuc.MobileTextArea({});
 
     divEl.current.appendChild(mobileTextArea)

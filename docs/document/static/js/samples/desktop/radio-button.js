@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const RadioButtonComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const radioButton = new Kuc.RadioButton({
         className: "cus-radio-button",
         value: "Orange",

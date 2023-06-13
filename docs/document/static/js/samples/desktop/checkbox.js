@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const CheckboxComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const checkbox = new Kuc.Checkbox({
         className: "cus-checkbox",
         value: ["Orange"],

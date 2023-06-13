@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const MobileCheckboxComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const mobileCheckbox = new Kuc.MobileCheckbox({
         className: "cus-mobile-checkbox",
         value: ["Orange"],

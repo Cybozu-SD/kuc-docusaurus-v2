@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const MobileTimePickerComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const mobileTimePicker = new Kuc.MobileTimePicker({
         value: "11:30"
     });

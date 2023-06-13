@@ -3,8 +3,6 @@ import React, { useEffect, useRef } from 'react';
 export const ButtonComponent = () =>  {
   const divEl = useRef();
   useEffect(() => {
-    const Kuc = Kucs["1.11.0"];
-
     const buttonNormal = new Kuc.Button({
       text: "Normal",
       type: "normal",
