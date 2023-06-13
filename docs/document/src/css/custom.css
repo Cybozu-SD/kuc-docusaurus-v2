@@ -28,6 +28,10 @@
   color: hsla(0,0%,100%,.6);
 }
 
+.navbar__inner .navbar__items button.navbar__toggle.clean-btn {
+  color: #ffffff;
+}
+
 .alert {
   --ifm-link-color: #3498db;
   --ifm-link-hover-color: rgba(52,152,219,.792156862745098);
