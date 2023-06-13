@@ -2,7 +2,6 @@ import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import CodeBlock from '@theme/CodeBlock';
-import KucCodeExample from '!!raw-loader!./kucCodeExample';
 import usecaseImageUrl from '@site/static/img/usecase_button.png';
 
 function getCurrentLanguage() {
@@ -10,6 +9,33 @@ function getCurrentLanguage() {
   const baseUrl = siteConfig.baseUrl;
   if(baseUrl.includes("/ja/")) return "ja";
   return "en";
+}
+
+function getKucCodeExample() {
+  return `kintone.events.on('app.record.index.show', event => {
+  const Kuc = Kucs['1.x.x'];
+
+  const header = kintone.app.getHeaderMenuSpaceElement();
+
+  const buttonSubmit = new Kuc.Button({
+    text: 'Submit',
+    type: 'submit'
+  });
+  buttonSubmit.addEventListener('click', event => {
+    console.log(event);
+  });
+
+  const buttonAlert = new Kuc.Button({
+    text: 'Alert',
+    type: 'alert'
+  });
+  buttonAlert.addEventListener('click', event => {
+    console.log(event);
+  });
+
+  header.appendChild(buttonSubmit);
+  header.appendChild(buttonAlert);
+});`;
 }
 
 export default function HomepageFeatures() {
@@ -30,7 +56,7 @@ export default function HomepageFeatures() {
                   <img src={usecaseImageUrl} alt="button usecase" />
                 </div>
                 <div className="usecase_code">
-                  <CodeBlock language="jsx">{KucCodeExample}</CodeBlock>
+                  <CodeBlock language="jsx">{getKucCodeExample()}</CodeBlock>
                 </div>
               </div>
             </div>
@@ -54,7 +80,7 @@ export default function HomepageFeatures() {
                   <img src={usecaseImageUrl} alt="button usecase" />
                 </div>
                 <div className="usecase_code">
-                  <CodeBlock language="jsx">{KucCodeExample}</CodeBlock>
+                  <CodeBlock language="jsx">{getKucCodeExample()}</CodeBlock>
                 </div>
               </div>
             </div>
