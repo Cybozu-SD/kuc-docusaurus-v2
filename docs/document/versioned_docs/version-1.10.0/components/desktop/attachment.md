@@ -2,7 +2,6 @@
 id: attachment
 title: Attachment
 sidebar_label: Attachment
-original_id: attachment
 ---
 
 ## Overview

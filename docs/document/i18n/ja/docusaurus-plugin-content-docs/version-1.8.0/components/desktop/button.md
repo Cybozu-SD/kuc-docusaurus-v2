@@ -2,7 +2,6 @@
 id: button
 title: Button
 sidebar_label: Button
-original_id: button
 ---
 
 ## Overview

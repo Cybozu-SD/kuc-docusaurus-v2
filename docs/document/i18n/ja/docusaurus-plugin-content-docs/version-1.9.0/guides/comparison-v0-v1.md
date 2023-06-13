@@ -2,7 +2,6 @@
 id: comparison-v0-v1
 title: A commentary on the difference between v0 and v1
 sidebar_label: A commentary on the difference between v0 and v1
-original_id: comparison-v0-v1
 ---
 
 ## 概要

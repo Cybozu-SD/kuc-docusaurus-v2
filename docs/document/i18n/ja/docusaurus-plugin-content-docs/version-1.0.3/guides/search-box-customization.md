@@ -2,7 +2,6 @@
 id: search-box-customization
 title: Search box customization
 sidebar_label: Search box customization
-original_id: search-box-customization
 ---
 
 ## 概要

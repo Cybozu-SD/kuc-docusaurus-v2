@@ -2,7 +2,6 @@
 id: textarea
 title: TextArea
 sidebar_label: TextArea
-original_id: textarea
 ---
 
 ## Overview

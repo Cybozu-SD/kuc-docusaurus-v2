@@ -2,7 +2,6 @@
 id: mobile-text
 title: MobileText
 sidebar_label: MobileText
-original_id: mobile-text
 ---
 
 ## Overview

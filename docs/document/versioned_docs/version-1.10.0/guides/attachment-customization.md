@@ -2,7 +2,6 @@
 id: attachment-customization
 title: Attachment customization
 sidebar_label: Attachment customization
-original_id: attachment-customization
 ---
 
 ## Overview

@@ -2,7 +2,6 @@
 id: tabs
 title: Tabs
 sidebar_label: Tabs
-original_id: tabs
 ---
 
 ## Overview

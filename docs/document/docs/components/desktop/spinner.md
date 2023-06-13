@@ -2,7 +2,6 @@
 id: spinner
 title: Spinner
 sidebar_label: Spinner
-original_id: spinner
 ---
 
 ## Overview

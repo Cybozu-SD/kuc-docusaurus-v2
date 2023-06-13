@@ -2,7 +2,6 @@
 id: readonly-table
 title: ReadOnlyTable
 sidebar_label: ReadOnlyTable
-original_id: readonly-table
 ---
 
 ## Overview

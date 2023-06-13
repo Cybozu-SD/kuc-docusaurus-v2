@@ -2,7 +2,6 @@
 id: mobile-notification
 title: MobileNotification
 sidebar_label: MobileNotification
-original_id: mobile-notification
 ---
 
 ## Overview

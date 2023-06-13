@@ -2,7 +2,6 @@
 id: mobile-dropdown
 title: MobileDropdown
 sidebar_label: MobileDropdown
-original_id: mobile-dropdown
 ---
 
 ## Overview

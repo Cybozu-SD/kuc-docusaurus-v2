@@ -2,7 +2,6 @@
 id: table-readonly-table-customization
 title: Table and ReadOnlyTable customization
 sidebar_label: Table and ReadOnlyTable customization
-original_id: table-readonly-table-customization
 ---
 
 ## 概要

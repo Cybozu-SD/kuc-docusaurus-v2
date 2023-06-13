@@ -2,7 +2,6 @@
 id: bulk-update-customization
 title: Bulk update customization
 sidebar_label: Bulk update customization
-original_id: bulk-update-customization
 ---
 
 ## 概要

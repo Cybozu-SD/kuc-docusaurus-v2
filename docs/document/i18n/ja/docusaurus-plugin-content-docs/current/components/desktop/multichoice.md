@@ -2,7 +2,6 @@
 id: multichoice
 title: MultiChoice
 sidebar_label: MultiChoice
-original_id: multichoice
 ---
 
 ## Overview

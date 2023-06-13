@@ -2,7 +2,6 @@
 id: mobile-checkbox
 title: MobileCheckbox
 sidebar_label: MobileCheckbox
-original_id: mobile-checkbox
 ---
 
 ## Overview

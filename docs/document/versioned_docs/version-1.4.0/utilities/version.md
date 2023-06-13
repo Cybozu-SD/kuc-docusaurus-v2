@@ -2,7 +2,6 @@
 id: version
 title: version
 sidebar_label: version
-original_id: version
 ---
 
 ## Overview

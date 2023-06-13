@@ -2,7 +2,6 @@
 id: checkbox
 title: Checkbox
 sidebar_label: Checkbox
-original_id: checkbox
 ---
 
 ## Overview

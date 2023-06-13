@@ -2,7 +2,6 @@
 id: notification
 title: Notification
 sidebar_label: Notification
-original_id: notification
 ---
 
 ## Overview

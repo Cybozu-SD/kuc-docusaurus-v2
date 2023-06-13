@@ -2,7 +2,6 @@
 id: dialog
 title: Dialog
 sidebar_label: Dialog
-original_id: dialog
 ---
 
 ## Overview

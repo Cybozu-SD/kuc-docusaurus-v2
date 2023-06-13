@@ -2,7 +2,6 @@
 id: time-picker
 title: TimePicker
 sidebar_label: TimePicker
-original_id: time-picker
 ---
 
 ## Overview

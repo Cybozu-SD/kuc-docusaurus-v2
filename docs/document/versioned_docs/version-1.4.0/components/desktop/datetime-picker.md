@@ -2,7 +2,6 @@
 id: datetime-picker
 title: DateTimePicker
 sidebar_label: DateTimePicker
-original_id: datetime-picker
 ---
 
 ## Overview

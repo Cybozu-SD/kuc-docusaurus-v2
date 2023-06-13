@@ -2,7 +2,6 @@
 id: quick-start
 title: Quick Start
 sidebar_label: Quick Start
-original_id: quick-start
 ---
 
 ## What is Kintone UI Component?

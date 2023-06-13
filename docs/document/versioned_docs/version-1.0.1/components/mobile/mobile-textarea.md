@@ -2,7 +2,6 @@
 id: mobile-textarea
 title: MobileTextArea
 sidebar_label: MobileTextArea
-original_id: mobile-textarea
 ---
 
 ## Overview

@@ -2,7 +2,6 @@
 id: mobile-date-picker
 title: MobileDatePicker
 sidebar_label: MobileDatePicker
-original_id: mobile-date-picker
 ---
 
 ## Overview

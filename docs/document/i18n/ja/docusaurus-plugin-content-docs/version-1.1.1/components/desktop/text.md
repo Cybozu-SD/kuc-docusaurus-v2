@@ -2,7 +2,6 @@
 id: text
 title: Text
 sidebar_label: Text
-original_id: text
 ---
 
 ## Overview

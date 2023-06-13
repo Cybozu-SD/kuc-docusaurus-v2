@@ -2,7 +2,6 @@
 id: version-conflicts-issue-solution
 title: Version conflicts issue and solution
 sidebar_label: Version conflicts issue and solution
-original_id: version-conflicts-issue-solution
 ---
 
 ## 概要

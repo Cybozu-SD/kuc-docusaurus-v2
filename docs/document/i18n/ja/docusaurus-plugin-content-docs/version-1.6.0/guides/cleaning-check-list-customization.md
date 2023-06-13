@@ -2,7 +2,6 @@
 id: cleaning-check-list-customization
 title: Cleaning check list customization
 sidebar_label: Cleaning check list customization
-original_id: cleaning-check-list-customization
 ---
 
 ## 概要

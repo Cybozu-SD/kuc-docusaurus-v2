@@ -2,7 +2,6 @@
 id: mobile-multichoice
 title: MobileMultiChoice
 sidebar_label: MobileMultiChoice
-original_id: mobile-multichoice
 ---
 
 ## Overview

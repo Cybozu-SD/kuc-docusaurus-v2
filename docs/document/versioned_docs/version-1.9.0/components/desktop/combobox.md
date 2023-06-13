@@ -2,7 +2,6 @@
 id: combobox
 title: Combobox
 sidebar_label: Combobox
-original_id: combobox
 ---
 
 ## Overview

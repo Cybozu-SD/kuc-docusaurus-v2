@@ -2,7 +2,6 @@
 id: date-picker
 title: DatePicker
 sidebar_label: DatePicker
-original_id: date-picker
 ---
 
 ## Overview

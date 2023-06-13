@@ -2,7 +2,6 @@
 id: release-notes-v1.1.0
 title: v1.1.0 Release Notes
 sidebar_label: v1.1.0 Release Notes
-original_id: release-notes-v1.1.0
 ---
 
 ## Overview

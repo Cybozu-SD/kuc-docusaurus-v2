@@ -2,7 +2,6 @@
 id: mobile-radio-button
 title: MobileRadioButton
 sidebar_label: MobileRadioButton
-original_id: mobile-radio-button
 ---
 
 ## Overview
