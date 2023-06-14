@@ -39,6 +39,19 @@
   --ifm-link-decoration: none;
 }
 
+@media screen and (max-width: 996px) {
+  .menu__link {
+    color: #ffffff;
+  }
+
+  .navbar-sidebar__back {
+    background-color: #ccc;
+  }
+
+  .menu__link--active:hover {
+    color: #ccc;
+  }
+}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
