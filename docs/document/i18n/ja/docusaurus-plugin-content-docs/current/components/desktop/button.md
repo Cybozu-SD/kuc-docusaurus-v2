@@ -30,7 +30,9 @@ import { ButtonComponent } from "@site/static/js/samples/desktop/button.js"
 | disabled | boolean | false | コンポーネントの編集可/不可設定 ||
 | visible | boolean | true | コンポーネントの表示/非表示設定 ||
 
-> *1: kintone UI Component はこのプロパティの値を内部的にサニタイズしていません。ユーザー入力を受け付けるような実装でこのプロパティを使用する場合は、開発者自身で XSS 対策をしてください。
+:::caution
+*1: kintone UI Component はこのプロパティの値を内部的にサニタイズしていません。ユーザー入力を受け付けるような実装でこのプロパティを使用する場合は、開発者自身で XSS 対策をしてください。
+:::
 
 ### Event
 
