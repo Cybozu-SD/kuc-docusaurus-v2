@@ -68,6 +68,7 @@ const config = {
             type: 'docsVersion',
             position: 'left',
             to: '/versions',
+            className: 'versions'
           },
           {
             type: 'doc',

@@ -34,6 +34,7 @@ const sidebars = {
           "components/desktop/datetime-picker",
           "components/desktop/dialog",
           "components/desktop/dropdown",
+          "components/desktop/field-group",
           "components/desktop/multichoice",
           "components/desktop/notification",
           "components/desktop/radio-button",
@@ -78,7 +79,8 @@ const sidebars = {
       "guides/format-setting-plugin",
       "guides/version-conflicts-issue-solution",
       "guides/attachment-customization",
-      "guides/table-readonly-table-customization"
+      "guides/table-readonly-table-customization",
+      "guides/tabs-customization"
     ]
   },
   "release-notes": {

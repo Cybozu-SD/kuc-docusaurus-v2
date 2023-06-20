@@ -32,6 +32,13 @@
   color: #ffffff;
 }
 
+.navbar__inner .navbar__items a.versions {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: #dddddd;
+  text-decoration-thickness: 1px;
+}
+
 .alert {
   --ifm-link-color: #3498db;
   --ifm-link-hover-color: rgba(52,152,219,.792156862745098);
