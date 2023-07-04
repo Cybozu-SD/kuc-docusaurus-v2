@@ -79,7 +79,7 @@ none
 const Kuc = Kucs['1.x.x'];
 
 const mobileNotification = new Kuc.MobileNotification({
-  text:  'Error occurred!',
+  text: 'Error occurred!',
   className: 'options-class',
   duration: 2000
 });

@@ -17,9 +17,9 @@ import { TabsComponent } from "@site/static/js/samples/desktop/tabs.js"
 ## Specification
 
 ### Property
+
 Here is a list of properties that can be used for modifying the component:
 
-#### Tabs
 
 | Name   | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
@@ -119,3 +119,8 @@ tabs.addEventListener('change', event => {
   console.log(event);
 });
 ```
+
+---
+
+## Related Articles
+- [Tabs customization](../../guides/tabs-customization)

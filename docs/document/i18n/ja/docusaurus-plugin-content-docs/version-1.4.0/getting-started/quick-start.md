@@ -83,7 +83,9 @@ kintone.events.on('app.record.index.show', event => {
 ![button customize](/img/button_customize.png)
 
 ### CDN を利用する
-> [UMD を利用する](#umd-を利用する) セクションの説明とサンプルコードをご確認ください。
+:::tip
+[UMD を利用する](#umd-を利用する) セクションの説明とサンプルコードをご確認ください。
+:::
 
 1. 以下の CDN URL を、作成した kintone アプリ設定の `JavaScript /CSS でカスタマイズ`にて指定します。（[JavaSriptやCSSでアプリをカスタマイズする](https://get.kintone.help/k/ja/user/app_settings/js_customize.html)）<br/>
 CDN を読み込むと、グローバルオブジェクトとして `Kuc` が追加されます。

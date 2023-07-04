@@ -65,7 +65,7 @@ Here is a sample code when all parameters are specified:
 
 ```javascript
 const notification = new Kuc.Notification({
-  text:  'Error occurred!',
+  text: 'Error occurred!',
   type: 'danger',
   className: 'options-class'
 });

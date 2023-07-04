@@ -73,7 +73,7 @@ none
 
 ```javascript
 const mobileNotification = new Kuc.MobileNotification({
-  text:  'Error occurred!',
+  text: 'Error occurred!',
   className: 'options-class',
   duration: 2000
 });

@@ -17,9 +17,9 @@ import { TabsComponent } from "@site/static/js/samples/desktop/tabs.js"
 ## Specifications
 
 ### Property
+
 使用できるプロパティの一覧です。プロパティを指定して値を更新することができます。
 
-#### Tabs
 | Name   | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |
 | className | string | "" | コンポーネントの class 名 ||

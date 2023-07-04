@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/okaidia');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/palenight');
+const darkCodeTheme = require('prism-react-renderer/themes/palenight');
 const versions = require('./versions.json');
 
 function getLatestVersionName() {
@@ -12,6 +12,15 @@ function getLatestVersionName() {
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'kintone UI Component · Be a smart kintone developer.',
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'description',
+        content: 'Be a smart kintone developer'
+      },
+    },
+  ],
   tagline: 'It will support your UI customization project.',
   url: 'https://cybozu-sd.github.io/',
   baseUrl: '/kuc-docusaurus-v2/',

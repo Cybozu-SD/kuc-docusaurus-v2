@@ -17,9 +17,8 @@ import { TabsComponent } from "@site/static/js/samples/desktop/tabs.js"
 ## Specification
 
 ### Property
-Here is a list of properties that can be used for modifying the component:
 
-#### Tabs
+Here is a list of properties that can be used for modifying the component:
 
 | Name   | Type | Default | Description | Remark |
 | :--- | :--- | :--- | :--- | :--- |

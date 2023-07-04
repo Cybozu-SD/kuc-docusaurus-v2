@@ -17,6 +17,7 @@ import { AttachmentComponent } from "@site/static/js/samples/desktop/attachment.
 ## Specification
 
 ### Property
+
 Here is a list of properties that can be used for modifying the component:
 
 | Name   | Type | Default | Description | Remark |
