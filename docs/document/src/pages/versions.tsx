@@ -79,7 +79,7 @@ export default function Version(): JSX.Element {
   const currentLanguage = getCurrentLanguage();
   if (currentLanguage === "en") {
     return (
-      <Layout title={title} description={tagline}>
+      <Layout>
         <main className="container margin-vert--lg">
           <Heading as="h1">
             <div id="versionsPage.title">Kintone UI Component versions</div>
@@ -147,7 +147,7 @@ export default function Version(): JSX.Element {
     );
   }
   return (
-    <Layout title={title} description={tagline}>
+    <Layout>
       <main className="container margin-vert--lg">
         <Heading as="h1">
           <div id="versionsPage.title">kintone UI Component versions</div>

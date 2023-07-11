@@ -19,7 +19,7 @@ Here is a sample code when accessing the version information:
 
 ### Use the UMD
 
-```js
+```javascript
 console.log(Kuc.version);
 ```
 

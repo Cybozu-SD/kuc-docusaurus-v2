@@ -55,13 +55,13 @@ v1.3.2 以前のバージョンを利用する場合は、Kuc をグローバル
 
 1. kintone UI Component リポジトリ内の[各バージョン Release 欄](https://github.com/kintone-labs/kintone-ui-component/releases)に添付のアーカイブフォルダ（kintone-ui-component-{version}.tgz）を解凍し、以下のファイルを kintone アプリ設定の `JavaScript / CSS でカスタマイズ`にて指定します。
 
-```text
+```bash
 ./umd/kuc.min.js
 ```
 
 2. `index.js` ファイルを作成します。
 
-```js
+```javascript
 const Kuc = Kucs['1.x.x'];
 
 kintone.events.on('app.record.index.show', event => {
@@ -93,12 +93,12 @@ kintone.events.on('app.record.index.show', event => {
 CDN を読み込むと、グローバルオブジェクトとして `Kuc` が追加されます。
 
    - 最新版の kintone UI Component を読み込みたい場合
-    ```text
+    ```bash
     https://unpkg.com/kintone-ui-component/umd/kuc.min.js
     ```
 
    - バージョン指定して読み込みたい場合（プロジェクト名の後ろにバージョン番号を指定）
-    ```text
+    ```bash
     https://unpkg.com/kintone-ui-component@1.0.0/umd/kuc.min.js
     ```
 
@@ -118,7 +118,7 @@ v1.4.0 から、レンダリングされたコンポーネントのタグ名と�
 
 1. `customization` というフォルダを作成し、その配下で以下のコマンドを実行します。
 
-```sh
+```bash
 mkdir customization && cd customization
 npm init -y
 npm install kintone-ui-component
@@ -177,11 +177,11 @@ module.exports = (env = {}) => {
 
 5. 以下のコマンドを実行し、カスタマイズ用のファイルを生成します。
 
-```text
+```bash
 npm run build:webpack
 ```
 
-```text
+```bash
 出力結果：
 ./dist/customization.min.js
 ```

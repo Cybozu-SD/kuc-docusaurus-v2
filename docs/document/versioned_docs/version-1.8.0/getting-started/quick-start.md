@@ -52,7 +52,7 @@ Please read this [Version conflicts issue and solution](../guides/version-confli
 
 1. Download the file located inside Kintone UI Component repository's [each version Release field](https://github.com/kintone-labs/kintone-ui-component/releases). Unzip the attached archives folder (kintone-ui-component-{version} .tgz). Upload the following file to the `JavaScript and CSS Customization` inside Kintone's app setting.
 
-```text
+```bash
 ./umd/kuc.min.js
 ```
 
@@ -94,12 +94,12 @@ See the guidance and sample code at [Use UMD](#use-the-umd) section.
 Once the CDN is being imported to the app, you will have access to the global object of `Kuc`.
 
    - For the latest version of Kintone UI Component:
-    ```text
+    ```bash
     https://unpkg.com/kintone-ui-component/umd/kuc.min.js
     ```
 
    - If you want to import a particular version, specify the version number after the project name.
-    ```text
+    ```bash
     https://unpkg.com/kintone-ui-component@1.0.0/umd/kuc.min.js
     ```
 
@@ -183,7 +183,7 @@ module.exports = (env = {}) => {
 npm run build:webpack
 ```
 
-```text
+```bash
 Output Result：
 ./dist/customization.min.js
 ```
